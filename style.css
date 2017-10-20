@@ -1,0 +1,48 @@
+*{
+	padding:  0px;
+	margin: 0px;
+}
+
+.btn{
+	position: relative;
+	box-sizing: content-box;
+	border:  none;
+
+
+	width:  150px;
+	height:  50px;
+	background: #FCFFCD;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 18px;
+	
+}
+.coner{
+	border: 4px solid #FFBF00;
+	position: absolute;
+	transition-duration: 0.2s;
+}
+
+.left_coner{
+	left: 0px;
+	bottom: 0px;
+	top: 50%;
+	right: 50%;
+	border-right: none;
+	border-top: none;
+}
+.right_coner{
+	right: 0px;
+	top: 0px;
+	bottom: 50%;
+	left: 50%;
+	border-left: none;
+	border-bottom: none;
+}
+.btn:hover .left_coner{
+	top:  0px;
+	right: 0px;
+}
+.btn:hover .right_coner{
+	bottom:  0px;
+	left: 0px;
+}
